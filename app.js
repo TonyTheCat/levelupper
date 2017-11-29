@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
+const db = require('./db/mongoose');
 
 const users = require('./users/routes');
 
